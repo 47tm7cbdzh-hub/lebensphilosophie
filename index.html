@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Lebensphilosophie – Schriftrolle</title>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{--p1:#eadfc2;--p2:#d9c79a;--ink:#2a2017;--faded:#6a5841;--seal:#7a2e22;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:var(--p1) radial-gradient(ellipse at 50% 0,var(--p1),var(--p2)) fixed;color:var(--ink);font:19px/1.75 'IM Fell English',Georgia,serif}
+main{max-width:680px;margin:0 auto;padding:11vh 24px 14vh}
+h1{font-weight:400;font-size:clamp(2.4rem,10vw,4.2rem);text-align:center;margin:0 0 .7em;letter-spacing:.03em}
+
+h2{font-weight:400;font-style:italic;font-size:1.15rem;color:var(--faded);margin:3.2em 0 .8em;border-bottom:1px solid #6a584133;padding-bottom:.3em}
+p{margin:0 0 1em;text-align:justify;hyphens:auto}
+.ag{background:linear-gradient(var(--seal),var(--seal)) 0 100%/0 1px no-repeat;transition:background-size 1s,color 1s}
+.ag.on{background-size:100% 1px;color:var(--seal)}
+.btn{font:inherit;font-style:italic;color:var(--seal);background:none;border:1px solid var(--seal);padding:.35em 1.1em;cursor:pointer;transition:background .3s,color .3s}
+.btn:hover,.btn:focus-visible{background:var(--seal);color:var(--p1)}
+.acc{border-bottom:1px solid #6a584144}
+.acc>button{all:unset;box-sizing:border-box;display:flex;gap:.8em;align-items:center;width:100%;cursor:pointer;padding:.7em 0;font-size:clamp(1.3rem,4.7vw,1.8rem);line-height:1.25}
+.acc>button:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+.acc>button::before{content:"";flex:none;width:.7em;height:.7em;border-radius:50%;border:1.5px solid var(--seal);transition:background .5s,transform .5s}
+.acc.open>button::before{background:var(--seal);transform:scale(1.25)}
+.bd{display:grid;grid-template-rows:0fr;transition:grid-template-rows .7s ease}.acc.open .bd{grid-template-rows:1fr}
+.bd>div{overflow:hidden}.bd ul{margin:0 0 1.2em;padding-left:1.4em}.bd li{margin:.3em 0;opacity:0;transform:translateY(8px);transition:.6s}
+.open .bd li{opacity:1;transform:none}.open .bd li:nth-child(2){transition-delay:.25s}
+.sm>button{font-size:1.25rem}.sm .bd p,.sm .bd li{font-size:.95em}
+.acc>button::after{content:"+";margin-left:auto;color:var(--seal);font-size:.8em;transition:transform .5s}.acc.open>button::after{transform:rotate(45deg)}
+#ip{cursor:pointer;margin:0;overflow:hidden;transition:max-height .9s ease,color .4s}#ip.cl{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}#ip:focus-visible{outline:2px solid var(--seal);outline-offset:4px}
+.intro.open .bd{grid-template-rows:1fr}.intro .bd>div{padding-top:1em}
+.intro .btn{margin-bottom:.4em}
+.mt{display:flex;align-items:center;justify-content:center;gap:.6em;margin-top:.7em;cursor:pointer;font-style:italic;font-size:.95rem;color:var(--seal)}.mt::before{content:"weiterlesen"}.intro.open .mt::before{content:"einfalten"}.mt::after{content:"";width:.5em;height:.5em;border-right:1.5px solid var(--seal);border-bottom:1.5px solid var(--seal);transform:rotate(45deg);animation:nudge 2.2s ease-in-out infinite}.intro.open .mt::after{transform:rotate(225deg);animation:none}@keyframes nudge{50%{translate:0 4px}}
+blockquote{margin:3em 0 0;padding:0 0 0 1.3em;border-left:2px solid var(--seal);font-style:italic}
+ul.l{padding-left:1.2em}ul.l li{margin:.6em 0}
+.ch{display:flex;flex-direction:column;gap:.9em;line-height:1.45;border-left:1px solid #6a584144;padding-left:1.3em;margin:0 0 1.4em}.ch span{display:block;position:relative}.ch span::before{content:"";position:absolute;left:calc(-1.3em - 4px);top:.5em;width:7px;height:7px;border-radius:50%;background:var(--seal);border:1px solid var(--seal)}.ch b{font-weight:400}.ch i{display:block;font-size:.8em;color:var(--faded)}
+.fin{font-style:italic;margin-top:1em}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01s!important}}
+</style></head><body><main>
+<h1>Lebensphilosophie</h1>
+<div class="intro"><p id="ip" role="button" tabindex="0" aria-expanded="false">Das, was wir fälschlicherweise als ein permanentes und steuerndes ‚Ich‘ wahrnehmen, ist das Zusammenspiel von fünf unbeständigen Aggregaten (Daseinsgruppen): <span class="ag">dem Körper mit seinen Sinnesorganen im Kontakt mit der sich ebenfalls ständig verändernden Außenwelt (1)</span>, <span class="ag">den daraus entstehenden Empfindungen (2)</span> und <span class="ag">Wahrnehmungen (3)</span> sowie <span class="ag">den geistigen Formationen (4)</span> – Gedanken(-konstrukten), Gefühlen, Absichten –, die zudem durch unsere Evolution geformt sind (z. B. Bedürfnis nach Sicherheit, sozialer Status). Das fünfte Aggregat, <span class="ag">das Bewusstsein (5)</span>, ‚beobachtet‘ diese Vorgänge gewissermaßen und wird deshalb oft mit dem permanenten ‚Ich‘ gleichgesetzt. Auch es ist jedoch nicht beständig: Es entsteht nur im Zusammenspiel mit den anderen vier und vergeht mit ihnen. Es kann somit kein permanentes ‚Ich‘ geben. Aber es gibt uns als Prozess, wie einen Fluss. Außerdem haben wir demnach zwar keine volle Kontrolle darüber, welche Gedanken und Gefühle auftreten, können sie aber beobachten und dadurch Entscheidungen in eine positive Richtung lenken und den Prozess, den wir ‚Ich‘ nennen, zu etwas Besseren formen – zum Wohl von uns selbst und unserem Umfeld.</p>
+<div class="mt" id="mt" aria-hidden="true"></div></div>
+<h2>Mantras</h2>
+<div class="acc"><button aria-expanded="false">Nichts ist permanent</button><div class="bd"><div><ul><li>Auch das ‚Ich‘ nicht: den Finn von vor einer Sekunde gibt es so nicht mehr und doch gibt es Finn, als Prozess</li><li>Weder Positives noch Negatives bleibt. Festhalten erzeugt Leid: bspw. am Angenehmen klammern, das Unangenehme wegstoßen</li></ul></div></div></div>
+<div class="acc"><button aria-expanded="false">Gutes bewirkt Gutes, Schlechtes bewirkt Schlechtes</button><div class="bd"><div><ul><li>Jede willentliche Handlung schleift Gewohnheiten ein, wie ein Trampelpfad<ul><li>Heilsame Gedanken zulassen und ausbauen, unheilsame erkennen und nicht weiterfüttern</li></ul></li><li>Das Umfeld (die Außenwelt) so wählen und gestalten, dass daraus Gutes für das Selbst und die Umwelt entsteht</li></ul></div></div></div>
+<div class="acc"><button aria-expanded="false">Beobachter, nicht Steuerer</button><div class="bd"><div><ul><li>Gedanken und Gefühle entstehen bedingt und unwillkürlich. Ob ich ihnen folge, ist nicht festgelegt: Darin liegt der Spielraum</li><li>Kein festes ‚Ich‘ heißt nicht: keine Verantwortung. Es geht nicht um Schuld und Strafe, sondern um Ursache und Wirkung. Man ist sich selbst Zuflucht</li></ul></div></div></div>
+<blockquote>„Durch die Entscheidung, diszipliniert Routinen einzuführen – also bewusst zu konsumieren (z. B. Nahrung, Medien), bewusst mit seinen Gefühlen und Gedanken umzugehen (z. B. Achtsamkeit, Meditation), sich bewusst in Umfelder zu begeben (Sport, …) und bewusst zu handeln (z. B. kein Stehlen, kein Lügen) –, kann man das, was wir ‚Ich‘ nennen, zu etwas Gesünderem und Heilsamerem formen, und auch dem ‚Wir‘ geht es besser.“</blockquote>
+<h2>Leitplanken</h2>
+<ul class="l"><li>Kein festes ‚Ich‘ heißt nicht ‚du bist nichts‘. Du existierst als Prozess. ‚Ich‘, ‚du‘ und ‚mein‘ bleiben im Alltag nützliche Wörter.</li><li>Auch nicht am Besserwerden festhalten. Ziel ist nicht ein perfektes Ich, sondern weniger Klammern und weniger Leid. Mittlerer Pfad statt Askese oder Selbstkasteiung.</li></ul>
+<h2>Ähnlichkeit: der edle achtfache Pfad (alle acht gleichzeitig üben):</h2>
+<div class="acc sm"><button aria-expanded="false">Weisheit (Rechtes Verstehen, Rechtes Denken)</button><div class="bd"><div><p>Die Dinge sehen, wie sie sind: unbeständig, ohne festen Kern. Gedanken des Loslassens, der Güte und der Gewaltlosigkeit pflegen.</p></div></div></div>
+<div class="acc sm"><button aria-expanded="false">Ethisches Verhalten (Rechte Rede, Rechtes Handeln, Rechter Lebenserwerb)</button><div class="bd"><div><p>Nicht lügen, verleumden, stehlen oder schaden – anderen ein friedvolles Leben ermöglichen. Auf Mitgefühl für alle Lebewesen bauen, einen Beruf wählen, der niemandem schadet.</p></div></div></div>
+<div class="acc sm"><button aria-expanded="false">Geistige Disziplin (Rechte Anstrengung, Rechte Achtsamkeit, Rechte Konzentration)</button><div class="bd"><div><ul><li>Unheilsames gar nicht erst entstehen lassen oder loswerden, Heilsames hervorbringen und pflegen.</li><li>Achtsamkeit auf Körper (Atem), Gefühle, Geist und Gedanken – auf dem Kissen und im Alltag. Start: fünf Minuten Atem beobachten, abgeschweifte Gedanken bemerken und freundlich zurückkehren.</li></ul></div></div></div>
+<h2>Beispiel</h2>
+<div class="ch"><span><b>Reiz:</b> Ein Kollege kritisiert spitz meine Arbeit.<i>Außenwelt und Sinne</i></span><span><b>Empfindung:</b> Hitze, Anspannung.<i>Empfindung und Wahrnehmung</i></span><span><b>Reaktion:</b> Ärger steigt auf – unwillkürlich.<i>Geistige Formation: Ich steuere sie nicht.</i></span><span><b>Beobachten:</b> Nicht ‚ich bin wütend‘, sondern ‚da ist Ärger‘.<i>Beobachter, nicht Steuerer</i></span><span><b>Nicht füttern:</b> Den Gedanken ‚Der will mich kleinmachen‘ nicht weiterspinnen.<i>Gutes bewirkt Gutes, Schlechtes bewirkt Schlechtes</i></span><span><b>Entscheiden:</b> Ruhig nachfragen statt verletzen.<i>Man ist sich selbst Zuflucht</i></span></div>
+<p class="fin">Im Spalt zwischen aufsteigender Reaktion und Handlung liegt die Freiheit.</p>
+
+</main><script>
+document.querySelectorAll('.acc>button').forEach(b=>b.onclick=()=>{const o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',o);b.parentNode.classList.toggle('open',o)});
+const seq=(els,fin,btn)=>btn.onclick=()=>{els.forEach(e=>e.classList.remove('on'));fin&&fin.classList.remove('on');els.forEach((e,i)=>setTimeout(()=>e.classList.add('on'),i*900));fin&&setTimeout(()=>fin.classList.add('on'),els.length*900+300)};
+
+const ip=document.getElementById('ip'),inn=ip.parentNode;ip.classList.add('cl');
+const tog=()=>{const o=ip.getAttribute('aria-expanded')!=='true';ip.setAttribute('aria-expanded',o);inn.classList.toggle('open',o);if(o){const c=ip.offsetHeight;ip.classList.remove('cl');ip.style.maxHeight=c+'px';ip.offsetHeight;ip.style.maxHeight=ip.scrollHeight+'px'}else{ip.style.maxHeight=ip.scrollHeight+'px';ip.offsetHeight;ip.style.maxHeight=parseFloat(getComputedStyle(ip).lineHeight)*2+'px';setTimeout(()=>{if(ip.getAttribute('aria-expanded')!=='true'){ip.classList.add('cl');ip.style.maxHeight=''}},950)}};
+ip.onclick=tog;document.getElementById('mt').onclick=tog;ip.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();tog()}};
+</script></body></html>
